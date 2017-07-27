@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/lists_row_height"
+    android:layout_margin="0dp"
+    android:background="@android:color/white"
+    android:clickable="false"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="false"
+    android:foreground="?selectableItemBackground"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/margin_small"
+    android:paddingStart="@dimen/margin_small">
+
+    <ImageView
+        android:id="@+id/image_view_type_of_project"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/ic_angularjs"
+        android:foregroundGravity="center" />
+
+    <RelativeLayout
+        android:id="@+id/relaytive_layout_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/text_view_project_title"
+            style="@style/ListItemText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="First Project"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/created_by"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_project_title"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/created_by"
+            android:textColor="@color/black"
+            android:textSize="@dimen/list_created_by_text_size" />
+
+        <TextView
+            android:id="@+id/text_view_created_by_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_project_title"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@+id/created_by"
+            android:layout_toRightOf="@+id/created_by"
+            android:text="gnasherx"
+            android:textColor="@color/black"
+            android:textSize="@dimen/list_created_by_text_size"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/team_members"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/created_by"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/team_members"
+            android:textColor="@color/light_black"
+            android:textSize="@dimen/list_created_by_text_size" />
+
+        <TextView
+            android:id="@+id/text_view_team_members"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_created_by_user"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@+id/team_members"
+            android:layout_toRightOf="@+id/team_members"
+            android:text=""
+            android:textSize="@dimen/list_created_by_text_size"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+

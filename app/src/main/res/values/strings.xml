@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Mgmt</string>
+
+    <string name="error_invalid_email_not_valid">%s is not a valid email</string>
+    <string name="error_invalid_password_not_valid">Please enter a password that is at least 6 characters long.</string>
+    <string name="error_cannot_be_empty">This cannot be empty.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="progress_dialog_authenticating_with_firebase">Authenticating with Firebase…</string>
+    <string name="remove_item_option">Remove Item</string>
+    <string name="dialog_message_are_you_sure_remove_bookmark">Are you sure you want to remove this bookmark?</string>
+    <string name="project_name">Project name</string>
+    <string name="positive_button_create">Create</string>
+    <string name="add_project_title">Add new project</string>
+    <string name="dailog_cancel">Cancel</string>
+    <string name="team_members">Team members </string>
+    <string name="created_by">Created by</string>
+
+    <!--Spinner Due Date-->
+    <string-array name="dueDateList">
+        <item>Date</item>
+        <item>Today</item>
+        <item>Tomorrow</item>
+        <item>Select a date</item>
+    </string-array>
+</resources>

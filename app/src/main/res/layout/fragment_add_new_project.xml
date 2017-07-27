@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ganesh.mgmt.ui.activeProjects.AddNewProjectFragment">
+
+    <EditText
+        android:id="@+id/edit_text_project_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Project name"
+        android:layout_margin="16dp"
+        android:imeOptions="actionDone|flagNoExtractUi"
+        android:inputType="textCapWords"
+        android:textColor="@color/black"
+        android:textColorHint="@color/dark_grey" />
+
+</FrameLayout>

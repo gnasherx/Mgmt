@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_small">16dp</dimen>
+    <dimen name="list_created_by_text_size">12sp</dimen>
+    <dimen name="list_item_text_size">18sp</dimen>
+    <dimen name="lists_row_height">94dp</dimen>
+    <dimen name="padding_list_row">8dp</dimen>
+    <dimen name="timestamp">12dp</dimen>
+</resources>
